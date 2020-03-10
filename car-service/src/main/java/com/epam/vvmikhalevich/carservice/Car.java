@@ -1,41 +1,17 @@
 package com.epam.vvmikhalevich.carservice;
 
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
 public class Car {
 
+    @Getter
+    @Setter
     private Integer id;
     private String model;
     private String number;
-    boolean isReserve;
+    private boolean isReserve;
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
-    }
-
-    public boolean isReserve() {
-        return isReserve;
-    }
-
-    public void setReserve(boolean reserve) {
-        isReserve = reserve;
-    }
+   
 }
