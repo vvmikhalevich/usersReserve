@@ -1,0 +1,19 @@
+# Default ignored files
+/workspace.xml
+/.name
+/../booking-service/booking-service.iml
+/compiler.xml
+/encodings.xml
+/../flight-service/flight-service.iml
+/../hotel-service/hotel-service.iml
+/misc.xml
+/modules.xml
+/uiDesigner.xml
+/../user-service/user-service.iml
+/../usersReserve.iml
+/booking-service/booking-service.iml
+/car-service/car-service.iml
+/flight-service/flight-service.iml
+/hotel-service/hotel-service.iml
+/user-service/user-service.iml
+/usersReserve.iml
