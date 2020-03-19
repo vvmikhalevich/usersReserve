@@ -15,7 +15,7 @@ public class FlightController {
     private FlightService carService;
 
     @GetMapping("/")
-    public List<Flihgt> list(){
+    public List<Flight> list(){
 
         List carList = null;
 

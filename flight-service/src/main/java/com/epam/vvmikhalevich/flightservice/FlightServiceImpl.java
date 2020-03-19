@@ -6,7 +6,7 @@ public class FlightServiceImpl implements FlightService {
 
 
     @Override
-    public List<Flihgt> list() {
+    public List<Flight> list() {
         return null;
     }
 

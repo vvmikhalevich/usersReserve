@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface FlightService {
 
-    List<Flihgt> list();
+    List<Flight> list();
 
     void reserve(Integer id);
 
